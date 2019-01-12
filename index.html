@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Train Time</title>
+
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+
+</head>
+<body>
+    
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="text-center">Anytime is Train Time</h1>
+            <p class="text-center">Choo Choo. Chee Chee.</p>
+        </div>
+
+        <div class="row">
+            <div id="table-container">
+                <h5>Current Train Schedule</h5>
+
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col">Train Name</th>
+                            <th scope="col">Destination</th>
+                            <th scope="col">Frequency (min) </th>
+                            <th scope="col">Next Arrival</th>
+                            <th scope="col">Minutes Away</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- <tr class="table-row">
+                            <td>Thomas Train</td>
+                            <td>Alaska</td>
+                            <td>120</td>
+                            <td>5:45 PM</td>
+                            <td>35</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td>Oregon Trail</td>
+                            <td>Portland, OR</td>
+                            <td>90</td>
+                            <td>2:30 PM</td>
+                            <td>10</td>
+                        </tr> -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="row">
+            <div id="form-container">
+                <h5>Add Train</h5>
+                <form>
+                    <div class="form-group">
+                        <label for="train-name">Train Name</label>
+                        <input type="text" class="form-control" id="train-name">
+
+                        <label for="destination">Destination</label>
+                        <input type="text" class="form-control" id="destination">
+
+                        <label for="first-train-time">First Train Time (HH:mm - military time)</label>
+                        <input type="text" class="form-control" id="first-train-time">
+
+                        <label for="frequency">Frequency (min)</label>
+                        <input type="text" class="form-control" id="frequency">
+
+                        <button id="submit" type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CDN -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Firebase JS -->
+    <script src="https://www.gstatic.com/firebasejs/5.7.2/firebase.js"></script>
+
+    <!-- Moment JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.23.0/moment.min.js"></script>
+
+    <!-- Local JS -->
+    <script src="./assets/javascript/app.js"></script>
+</body>
+</html>

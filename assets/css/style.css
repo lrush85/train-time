@@ -1,0 +1,58 @@
+.jumbotron {
+    background-color: rgb(139,69,19);
+    color: #fff;
+}
+
+.row {
+    margin: 0;
+}
+
+thead {
+    font-weight: 600;
+}
+
+th {
+    border-top: none !important;
+}
+
+#table-container {
+    width: 100%;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+#table-container h5 {
+    background-color: #007bff; 
+    padding: 10px;
+    color: #fff;
+}
+
+#form-container {
+    width: 100%;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#form-container h5 {
+    background-color: #007bff; 
+    padding: 10px;
+    color: #fff;
+}
+
+.form-group {
+    padding: 20px;
+}
+
+input {
+    margin-bottom: 15px;
+}
